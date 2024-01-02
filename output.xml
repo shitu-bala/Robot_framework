@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20240102 06:47:37.926" rpa="false" schemaversion="4">
+<suite id="s1" name="TC1" source="C:\Users\Arun\PycharmProjects\Robot_framework\TestCases\TC1.robot">
+<test id="s1-t1" line="13">
+<status status="FAIL" starttime="20240102 06:47:37.962" endtime="20240102 06:47:37.963">Test name cannot be empty.</status>
+</test>
+<status status="FAIL" starttime="20240102 06:47:37.929" endtime="20240102 06:47:37.966"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240102 06:47:37.958" level="ERROR">Error in file 'C:\Users\Arun\PycharmProjects\Robot_framework\TestCases\TC1.robot' on line 2: Importing library 'seleniumlibrary' failed: ModuleNotFoundError: No module named 'seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python311\Scripts\robot.exe
+  C:\Python311\python311.zip
+  C:\Python311\DLLs
+  C:\Python311\Lib
+  C:\Python311
+  C:\Python311\Lib\site-packages</msg>
+</errors>
+</robot>
